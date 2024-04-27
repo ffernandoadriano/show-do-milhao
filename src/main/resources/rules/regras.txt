@@ -1,0 +1,59 @@
+Ao selecionar a opção JOGAR, será necessário preencher o campo de nome (para que depois seja mostrado no ranking de jogadores).
+
+O jogo começa com o jogador respondendo a uma pergunta. Cada pergunta deve conter um enunciado e 4 alternativas, sendo apenas uma correta, e um nível (Fácil, Normal ou Difícil).
+
+A cada rodada a pergunta terá um valor caso o jogador acerte a questão, um valor caso o jogador erre a questão e um outro valor caso o jogador decida parar.
+
+Caso o jogador acerte a pergunta, o jogo continua com a próxima pergunta, caso o jogador pare, erre ou acerte a questão de 1 Milhão, o jogo finaliza.
+
+Assim que um jogo finalizar, a pontuação do jogador é salva junto ao nome e a pontuação adquirida para ser mostrado posteriormente no ranking, somente se estiver entre os 10 primeiros.
+
+O jogador pode ter direito a 3 tipos de ajuda:
+
+- Pulo
+- Cartas
+- Universitários
+
+Durante todo o jogo o jogador tem direito a 3 pulos, 1 ajuda das cartas e 1 ajuda aos universitários.
+
+O pulo serve para trocar a pergunta feita ao usuário.
+
+Na ajuda das cartas o jogador escolhe no escuro uma de quatro cartas, as cartas são enumeradas de 0 a 3, a carta que o jogador escolher irá determinar quantas respostas erradas não aparecerão nas escolhas.
+
+Na ajuda aos universitários, o jogo mostra o palpite de 3 universitários.
+
+Atenção: na pergunta de 1 Milhão de Reais o jogador não tem direito a nenhuma ajuda!
+
+O Jogo deverá conter 16 turnos de perguntas e respostas com os seguintes valores:
+
+1 - Pergunta R$1.000 para acerto, R$0,00 para parar e R$0,00 se errar.
+
+2 - Pergunta R$2.000 para acerto, R$1.000 para parar e R$500 se errar.
+
+3 - Pergunta R$3.000 para acerto, R$2.000 para parar e R$1.000 se errar.
+
+4 - Pergunta R$4.000 para acerto, R$3.000 para parar e R$1.500 se errar.
+
+5 - Pergunta R$5.000 para acerto, R$4.000 para parar e R$2.000 se errar.
+
+6 - Pergunta R$10.000 para acerto, R$5.000 para parar e R$2.500 se errar.
+
+7 - Pergunta R$20.000 para acerto, R$10.000 para parar e R$5.000 se errar.
+
+8 - Pergunta R$30.000 para acerto, R$20.000 para parar e R$10.000 se errar.
+
+9 - Pergunta R$40.000 para acerto, R$30.000 para parar e R$15.000 se errar.
+
+10 - Pergunta R$50.000 para acerto, R$40.000 para parar e R$20.000 se errar.
+
+11 - Pergunta R$100.000 para acerto, R$50.000 para parar e R$25.000 se errar.
+
+12 - Pergunta R$200.000 para acerto, R$100.000 para parar e R$50.000 se errar.
+
+13 - Pergunta R$300.000 para acerto, R$200.000 para parar e R$100.000 se errar.
+
+14 - Pergunta R$400.000 para acerto, R$300.000 para parar e R$150.000 se errar.
+
+15 - Pergunta R$500.000 para acerto, R$400.000 para parar e R$200.000 se errar.
+
+16 - Pergunta R$1.000.000 para acerto, R$500.000 para parar e R$0,00 se errar.
