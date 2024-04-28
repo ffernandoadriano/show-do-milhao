@@ -9,35 +9,39 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.showdomilhao.controller.ControllerLayoutRulesScreen">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="br.com.showdomilhao.controller.ControllerLayoutRulesScreen">
 
     <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
 
-        <Image url="@../image/background.png" />
+        <Image url="@../image/background.png"/>
 
     </ImageView>
     <ImageView fitHeight="84.0" fitWidth="171.0" layoutX="6.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
 
-        <Image url="@../image/logo-show-milhao.jpg" />
+        <Image url="@../image/logo-show-milhao.jpg"/>
 
     </ImageView>
     <Label layoutX="280.0" layoutY="44.0" text="Regras do Jogo" textFill="WHITE">
         <font>
-            <Font name="System Bold Italic" size="36.0" />
+            <Font name="System Bold Italic" size="36.0"/>
         </font>
     </Label>
-    <JFXButton id="closeButton" layoutX="736.0" layoutY="9.0" onAction="#close" stylesheets="@../css/buttonStyle.css" text="X" textFill="WHITE">
+    <JFXButton id="closeButton" layoutX="736.0" layoutY="9.0" onAction="#close" stylesheets="@../css/buttonStyle.css"
+               text="X" textFill="WHITE">
         <font>
-            <Font name="System Bold" size="28.0" />
+            <Font name="System Bold" size="28.0"/>
         </font>
     </JFXButton>
-    <Label layoutX="607.0" layoutY="569.0" text="Developed by Fernando Adriano" textFill="WHITE" />
-    <Button layoutX="351.0" layoutY="516.0" onAction="#goBack" styleClass="defaultButton" stylesheets="@../css/buttonStyle.css" text="Voltar" />
+    <Label layoutX="607.0" layoutY="569.0" text="Developed by Fernando Adriano" textFill="WHITE"/>
+    <Button layoutX="351.0" layoutY="516.0" onAction="#goBack" styleClass="defaultButton"
+            stylesheets="@../css/buttonStyle.css" text="Voltar"/>
     <ScrollPane layoutX="169.0" layoutY="103.0" prefHeight="395.0" prefWidth="480.0">
 
         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2100.0" prefWidth="486.0">
 
-            <Label id="labelRules" fx:id="lblRules" layoutX="14.0" layoutY="14.0" prefHeight="1900.0" prefWidth="434.0" stylesheets="@../css/rulesStyle.css" textAlignment="JUSTIFY" wrapText="true" />
+            <Label id="labelRules" fx:id="lblRules" layoutX="14.0" layoutY="14.0" prefHeight="1900.0" prefWidth="434.0"
+                   stylesheets="@../css/rulesStyle.css" textAlignment="JUSTIFY" wrapText="true"/>
 
         </AnchorPane>
 
