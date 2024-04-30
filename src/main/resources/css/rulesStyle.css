@@ -1,0 +1,6 @@
+@import url("buttonStyle.css");
+
+#labelRules {
+    -fx-font-weight: bold;
+    -fx-font-size: 14;
+}
