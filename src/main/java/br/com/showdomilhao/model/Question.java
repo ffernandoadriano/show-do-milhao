@@ -104,10 +104,124 @@ public class Question {
         this.enunciated.set(enunciated);
     }
 
-    // Métodos semelhantes para as alternativas e a resposta
+    /**
+     * Obtém a primeira alternativa da questão.
+     *
+     * @return A primeira alternativa da questão
+     */
+    public String getAlternative1() {
+        return alternative1.get();
+    }
+
+    /**
+     * Obtém a propriedade da primeira alternativa da questão.
+     *
+     * @return A propriedade da primeira alternativa da questão
+     */
+    public StringProperty alternative1Property() {
+        return alternative1;
+    }
+
+    /**
+     * Define a primeira alternativa da questão.
+     *
+     * @param alternative1 A primeira alternativa da questão
+     */
+    public void setAlternative1(String alternative1) {
+        this.alternative1.set(alternative1);
+    }
+
+    /**
+     * Obtém a segunda alternativa da questão.
+     *
+     * @return A segunda alternativa da questão
+     */
+    public String getAlternative2() {
+        return alternative2.get();
+    }
+
+    /**
+     * Obtém a propriedade da segunda alternativa da questão.
+     *
+     * @return A propriedade da segunda alternativa da questão
+     */
+    public StringProperty alternative2Property() {
+        return alternative2;
+    }
+
+    /**
+     * Define a segunda alternativa da questão.
+     *
+     * @param alternative2 A segunda alternativa da questão
+     */
+    public void setAlternative2(String alternative2) {
+        this.alternative2.set(alternative2);
+    }
+
+    /**
+     * Obtém a terceira alternativa da questão.
+     *
+     * @return A terceira alternativa da questão
+     */
+    public String getAlternative3() {
+        return alternative3.get();
+    }
+
+    /**
+     * Obtém a propriedade da terceira alternativa da questão.
+     *
+     * @return A propriedade da terceira alternativa da questão
+     */
+    public StringProperty alternative3Property() {
+        return alternative3;
+    }
+
+    /**
+     * Define a terceira alternativa da questão.
+     *
+     * @param alternative3 A terceira alternativa da questão
+     */
+    public void setAlternative3(String alternative3) {
+        this.alternative3.set(alternative3);
+    }
+
+    /**
+     * Obtém a resposta correta da questão.
+     *
+     * @return A resposta correta da questão
+     */
+    public String getResponse() {
+        return response.get();
+    }
+
+    /**
+     * Obtém a propriedade da resposta correta da questão.
+     *
+     * @return A propriedade da resposta correta da questão
+     */
+    public StringProperty responseProperty() {
+        return response;
+    }
+
+    /**
+     * Define a resposta correta da questão.
+     *
+     * @param response A resposta correta da questão
+     */
+    public void setResponse(String response) {
+        this.response.set(response);
+    }
 
     @Override
     public String toString() {
-        return new StringJoiner(", ", Question.class.getSimpleName() + "[", "]").add("id=" + id).add("difficulty=" + difficulty).add("enunciated=" + enunciated).add("alternative1=" + alternative1).add("alternative2=" + alternative2).add("alternative3=" + alternative3).add("response=" + response).toString();
+        return new StringJoiner(", ", Question.class.getSimpleName() + "[", "]")
+                .add("id=" + id)
+                .add("difficulty=" + difficulty)
+                .add("enunciated=" + enunciated)
+                .add("alternative1=" + alternative1)
+                .add("alternative2=" + alternative2)
+                .add("alternative3=" + alternative3)
+                .add("response=" + response)
+                .toString();
     }
 }
