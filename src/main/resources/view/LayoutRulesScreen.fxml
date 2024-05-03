@@ -21,7 +21,8 @@
         <Image url="@../image/logo-show-milhao.jpg"/>
 
     </ImageView>
-    <Label layoutX="280.0" layoutY="44.0" text="Regras do Jogo" textFill="WHITE">
+    <Label id="labelTitle" layoutX="280.0" layoutY="44.0" stylesheets="@../css/rulesStyle.css" text="Regras do Jogo"
+           textFill="WHITE">
         <font>
             <Font name="System Bold Italic" size="36.0"/>
         </font>
@@ -31,9 +32,9 @@
             stylesheets="@../css/buttonStyle.css" text="Voltar"/>
     <ScrollPane layoutX="169.0" layoutY="103.0" prefHeight="395.0" prefWidth="480.0">
 
-        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2100.0" prefWidth="486.0">
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefWidth="486.0">
 
-            <Label id="labelRules" fx:id="lblRules" layoutX="14.0" layoutY="14.0" prefHeight="1900.0" prefWidth="434.0"
+            <Label id="labelRules" fx:id="lblRules" layoutX="14.0" layoutY="14.0" prefWidth="434.0"
                    stylesheets="@../css/rulesStyle.css" textAlignment="JUSTIFY" wrapText="true"/>
 
         </AnchorPane>
