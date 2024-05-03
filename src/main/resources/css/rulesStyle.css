@@ -4,3 +4,9 @@
     -fx-font-weight: bold;
     -fx-font-size: 14;
 }
+
+#labelTitle {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.9), 2, 0, 3, 3);
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+}
