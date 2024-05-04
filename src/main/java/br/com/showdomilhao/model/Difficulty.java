@@ -71,6 +71,23 @@ public enum Difficulty {
     }
 
     /**
+     * Método estático para retornar o tipo de enum com base no nome em português.
+     *
+     * @param name O nome em português do nível de dificuldade
+     * @return O enum correspondente ao nome fornecido
+     */
+    public static Difficulty fromNamePTBR(String name) {
+        for (Difficulty difficulty : Difficulty.values()) {
+            if (difficulty.getDescriptionPtBr().equalsIgnoreCase(name)) {
+                return difficulty;
+            }
+        }
+        // Se nenhum valor correspondente for encontrado, lançar uma exceção ou retornar null, dependendo do seu caso de uso.
+        LogUtils.getLogger(Difficulty.class).error("Nome do Nível é inválido '{}' ", name);
+        return null;
+    }
+
+    /**
      * Obtém o nível de dificuldade associado ao enum.
      *
      * @return O nível de dificuldade
