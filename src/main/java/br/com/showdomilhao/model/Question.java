@@ -16,6 +16,7 @@ import java.util.StringJoiner;
  */
 public class Question {
     private final IntegerProperty id = new SimpleIntegerProperty(); // O identificador da questão
+    private final IntegerProperty row = new SimpleIntegerProperty();  // A linha associada à questão
     private final ObjectProperty<Difficulty> difficulty = new SimpleObjectProperty<>(); // O nível de dificuldade da questão
     private final StringProperty enunciated = new SimpleStringProperty(); // O enunciado da questão
     private final StringProperty alternative1 = new SimpleStringProperty(); // Primeira alternativa da questão
@@ -211,6 +212,35 @@ public class Question {
     public void setResponse(String response) {
         this.response.set(response);
     }
+
+    /**
+     * Obtém o valor da propriedade 'row', que representa a linha associada à questão.
+     *
+     * @return O valor da linha associada à questão.
+     */
+    public int getRow() {
+        return row.get();
+    }
+
+    /**
+     * Retorna a propriedade 'row' que representa a linha associada à questão.
+     * Esta propriedade permite a observação de mudanças no valor da linha.
+     *
+     * @return A propriedade 'row' da questão.
+     */
+    public IntegerProperty rowProperty() {
+        return row;
+    }
+
+    /**
+     * Define o valor da linha associada à questão.
+     *
+     * @param row O valor da linha a ser definido.
+     */
+    public void setRow(int row) {
+        this.row.set(row);
+    }
+
 
     @Override
     public String toString() {
