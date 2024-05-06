@@ -1,0 +1,9 @@
+@import url("buttonStyle.css");
+
+.text-field#alternative {
+    -fx-font-weight: bold;
+    -fx-background-radius: 20;
+    -fx-font-size: 18;
+    -fx-border-radius: 5;
+    -fx-border-width: 3;
+}
