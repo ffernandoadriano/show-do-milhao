@@ -17,7 +17,7 @@ public final class ConnectionFactory {
     /**
      * URL para conectar-se ao banco em arquivo
      */
-    private static final String URL_CONNECTION = "jdbc:sqlite:src/main/resources/database/show_milhao.db";
+    private static final String URL_CONNECTION = "jdbc:sqlite::resource:" + ConnectionFactory.class.getResource("/database/show_milhao.db");
 
     /**
      * construtor privado para não permitir instanciação da classe
