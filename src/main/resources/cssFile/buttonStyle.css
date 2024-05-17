@@ -1,0 +1,65 @@
+.button.defaultButton {
+	-fx-font-weight: bold;
+   	-fx-background-color: linear-gradient(#dd2c00 0%, #bc502f 20%, #dd2c00 85%, #bc512f 100%);
+	-fx-background-radius: 22;
+	-fx-font-size: 26;
+	-fx-text-fill: white;
+	-fx-border-color: #ffd600;
+	-fx-border-radius: 20;
+	-fx-border-width: 3;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 0, 0, 0, 10);
+}
+
+.button.stopButton {
+	-fx-font-weight: bold;
+	-fx-background-color: linear-gradient(#dd2c00 0%, #bc502f 20%, #dd2c00 85%, #bc512f 100%);
+	-fx-background-radius: 22;
+	-fx-font-size: 14;
+	-fx-text-fill: white;
+	-fx-border-color: #ffd600;
+	-fx-border-radius: 20;
+	-fx-border-width: 3;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 0, 0, 0, 10);
+}
+
+JFXButton#closeButton {
+	-fx-background-color: #455a64;
+	-fx-background-radius: 50;
+}
+
+JFXButton#closeButton:hover {
+    -fx-background-color: #566b75;
+    -fx-background-radius: 50;
+}
+
+.button.defaultButton:hover {
+	-fx-font-weight: bold;
+	-fx-background-color: #ee3d00;
+	-fx-background-radius: 22;
+	-fx-font-size: 26;
+	-fx-text-fill: white;
+}
+
+.button.defaultButton:pressed {
+	-fx-font-weight: bold;
+	-fx-background-color: #cc1b00;
+	-fx-background-radius: 22;
+	-fx-font-size: 26;
+	-fx-text-fill: white;        
+}
+
+.button.stopButton:hover {
+	-fx-font-weight: bold;
+	-fx-background-color: #ee3d00;
+	-fx-background-radius: 22;
+	-fx-font-size: 14;
+	-fx-text-fill: white;
+}
+
+.button.stopButton:pressed {
+    -fx-font-weight: bold;
+	-fx-background-color: #cc1b00;
+	-fx-background-radius: 22;
+	-fx-font-size: 14;
+	-fx-text-fill: white;
+}
