@@ -1,0 +1,141 @@
+.button.defaultButton {
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#dd2c00 0%, #bc502f 20%, #dd2c00 85%, #bc512f 100%);
+    -fx-background-radius: 22;
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+    -fx-border-color: #dddddd;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 0, 0, 0, 10);
+}
+
+.button.defaultButton:hover {
+    -fx-font-weight: bold;
+    -fx-background-color: #ee3d00;
+    -fx-background-radius: 22;
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+}
+
+.button.defaultButton:pressed {
+    -fx-font-weight: bold;
+    -fx-background-color: #cc1b00;
+    -fx-background-radius: 22;
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+}
+
+.defaultButton {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.9), 2, 0, 3, 3);
+    -fx-font-style: italic;
+}
+
+JFXButton#closeButton {
+    -fx-background-color: #455a64;
+    -fx-background-radius: 50;
+}
+
+JFXButton#closeButton:hover{
+    -fx-background-color: #566b75;
+    -fx-background-radius: 50;
+}
+
+Pane#help {
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#0d47a1 0%, #2979ff  20%, #0d47a1 85%, #2979ff  100%);
+    -fx-background-radius: 22;
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+    -fx-border-color: #ffffff;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 0, 0, 0, 10);
+    -fx-font-size: 15;
+}
+
+.button#enunciado {
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#882102 0%, #bc502f 20%, #882203 85%, #bc512f 100%);
+    -fx-background-radius: 22;
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+    -fx-border-color: #dddddd;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 0, 0, 0, 10);
+    -fx-font-style: italic;
+}
+
+.button#enunciado:hover {
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#882102 0%, #bc502f 20%, #882203 85%, #bc512f 100%);
+    -fx-background-radius: 22;
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+}
+
+.button#enunciado:pressed {
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#882102 0%, #bc502f 20%, #882203 85%, #bc512f 100%);
+    -fx-background-radius: 22;
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+}
+
+#enunciado {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.9), 2, 0, 3, 3);
+    -fx-font-style: italic;
+}
+
+.label {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.9), 2, 0, 3, 3);
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+}
+
+#enunciado LabeledText {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.9), 2, 0, 3, 3);
+    -fx-font-style: italic;
+}
+
+.defaultButton LabeledText {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.9), 2, 0, 3, 3);
+    -fx-font-style: italic;
+}
+
+.button.universitario{
+	-fx-background-image: url("../image/diploma.png");
+	-fx-background-size: 133px 60px;
+}
+
+.button.universitario:houver{
+	-fx-background-image: url("../image/diploma.png");
+	-fx-background-size: 133px 60px;
+	-fx-effect: innershadow(gaussian, rgba(0,0,0,0.3), 10, 0, 0, 10);
+}
+
+.button.universitario:pressed{
+	-fx-background-image: url("../image/diploma.png");
+	-fx-background-size: 133px 60px;
+	-fx-effect: innershadow(gaussian, rgba(0,0,0,0.7), 15, 0, 0, 15);
+}
+
+.button.card {
+	-fx-min-height: 71px;
+	-fx-min-width: 50px;
+	-fx-background-image: url("../image/carta.png");
+	-fx-background-size: 60px 69px;
+}
+
+.button.card:houver {
+	-fx-effect: innershadow(gaussian, rgba(0,0,0,0.3), 20, 0, 0, 20);
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 0, 0, 0, 10);
+}
+
+.button.card:pressed {
+	-fx-background-size: 60px 69px;
+	-fx-min-height: 71px;
+	-fx-min-width: 50px;
+	-fx-effect: innershadow(gaussian, rgba(0,0,0,0.3), 10, 0, 0, 10);
+}
