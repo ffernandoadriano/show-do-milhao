@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="br.com.showdomilhao.controller.ControllerLayoutQuestionAdditionScreen">
+
+    <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+
+        <Image url="@../image/background.png"/>
+
+    </ImageView>
+    <ImageView fitHeight="100.0" fitWidth="224.0" layoutX="6.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+
+        <Image url="@../image/logo-show-milhao.jpg"/>
+
+    </ImageView>
+    <Label id="labelTitle" fx:id="lblTitle" alignment="CENTER" layoutX="262.0" layoutY="38.0" prefHeight="53.0"
+           prefWidth="367.0" stylesheets="@../cssFile/rulesStyle.css" text="Nova Pergunta" textFill="WHITE">
+        <font>
+            <Font name="System Bold Italic" size="36.0"/>
+        </font>
+    </Label>
+    <Label layoutX="607.0" layoutY="569.0" stylesheets="@../cssFile/mainStyle.css" text="Developed by Fernando Adriano"
+           textFill="WHITE"/>
+
+    <HBox alignment="CENTER" layoutX="137.0" layoutY="511.0" prefHeight="77.0" prefWidth="440.0" spacing="40.0">
+        <Button onAction="#goBack" prefWidth="150.0" styleClass="defaultButton"
+                stylesheets="@../cssFile/buttonStyle.css" text="Voltar"/>
+
+        <Button onAction="#onSave" prefWidth="150.0" styleClass="defaultButton"
+                stylesheets="@../cssFile/buttonStyle.css" text="Salvar"/>
+
+    </HBox>
+
+    <JFXButton id="closeButton" layoutX="736.0" layoutY="9.0" onAction="#close"
+               stylesheets="@../cssFile/questionStyle.css" text="X" textFill="WHITE">
+        <font>
+            <Font name="System Bold" size="28.0"/>
+        </font>
+    </JFXButton>
+    <TextArea fx:id="txtEnunciated" layoutX="184.0" layoutY="124.0" prefHeight="174.0" prefWidth="590.0"
+              promptText="Digite o enunciado aqui" wrapText="true">
+        <font>
+            <Font name="System Bold" size="18.0"/>
+        </font>
+    </TextArea>
+    <VBox layoutX="184.0" layoutY="305.0" prefHeight="218.0" prefWidth="344.0" spacing="7.0">
+
+        <TextField id="alternative" fx:id="txtAlternative1" alignment="CENTER" prefHeight="45.0" prefWidth="301.0"
+                   promptText="Alternativa 1" stylesheets="@../cssFile/questionStyle.css">
+            <font>
+                <Font name="System Bold" size="18.0"/>
+            </font>
+        </TextField>
+        <TextField id="alternative" fx:id="txtAlternative2" alignment="CENTER" prefHeight="45.0"
+                   promptText="Alternativa 2" stylesheets="@../cssFile/questionStyle.css">
+            <font>
+                <Font name="System Bold" size="18.0"/>
+            </font>
+        </TextField>
+        <TextField id="alternative" fx:id="txtAlternative3" alignment="CENTER" prefHeight="45.0"
+                   promptText="Alternativa 3" stylesheets="@../cssFile/questionStyle.css">
+            <font>
+                <Font name="System Bold" size="18.0"/>
+            </font>
+        </TextField>
+        <TextField id="alternative" fx:id="txtResponse" alignment="CENTER" prefHeight="45.0" promptText="Resposta"
+                   stylesheets="@../cssFile/questionStyle.css">
+            <font>
+                <Font name="System Bold" size="18.0"/>
+            </font>
+        </TextField>
+
+    </VBox>
+    <VBox layoutX="45.0" layoutY="134.0" prefHeight="174.0" prefWidth="123.0" spacing="30.0">
+
+        <JFXRadioButton selected="true" text="Fácil" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="21.0"/>
+            </font>
+            <toggleGroup>
+                <ToggleGroup fx:id="groupLevel"/>
+            </toggleGroup>
+            <selectedColor>
+                <Color red="0.7426900863647461" green="0.8421052694320679" blue="0.17933723330497742"/>
+            </selectedColor>
+        </JFXRadioButton>
+
+        <JFXRadioButton text="Normal" textFill="WHITE" toggleGroup="$groupLevel">
+            <font>
+                <Font name="System Bold" size="21.0"/>
+            </font>
+            <selectedColor>
+                <Color red="0.7426900863647461" green="0.8421052694320679" blue="0.17933723330497742"/>
+            </selectedColor>
+        </JFXRadioButton>
+
+        <JFXRadioButton text="Difícil" textFill="WHITE" toggleGroup="$groupLevel">
+            <font>
+                <Font name="System Bold" size="21.0"/>
+            </font>
+            <selectedColor>
+                <Color red="0.7426900863647461" green="0.8421052694320679" blue="0.17933723330497742"/>
+            </selectedColor>
+        </JFXRadioButton>
+
+    </VBox>
+
+</AnchorPane>
