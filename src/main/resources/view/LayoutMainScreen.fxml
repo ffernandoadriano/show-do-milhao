@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="br.com.showdomilhao.controller.ControllerLayoutMainScreen">
+
+    <ImageView fitHeight="600.0" fitWidth="800.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+
+        <Image url="@../image/background.png"/>
+
+    </ImageView>
+    <ImageView fitHeight="94.0" fitWidth="225.0" layoutX="470.0" layoutY="14.0" pickOnBounds="true"
+               preserveRatio="true">
+
+        <Image url="@../image/logo-show-milhao.jpg"/>
+
+    </ImageView>
+    <Label layoutX="18.0" layoutY="581.0" stylesheets="@../cssFile/mainStyle.css" text="Developed by Fernando Adriano"
+           textFill="WHITE"/>
+    <Button id="enunciado" fx:id="btnEnunciated" alignment="CENTER" contentDisplay="CENTER" layoutX="14.0"
+            layoutY="13.0" prefHeight="203.0" prefWidth="440.0" stylesheets="@../cssFile/mainStyle.css"
+            textAlignment="JUSTIFY" wrapText="true"/>
+    <GridPane hgap="10.0" layoutX="14.0" layoutY="225.0" prefHeight="353.0" prefWidth="407.0" vgap="5.0">
+        <Button fx:id="btnUniversityStudent1" alignment="CENTER" prefHeight="60.0" prefWidth="130.0"
+                styleClass="universitario" stylesheets="@../cssFile/mainStyle.css" visible="false" wrapText="true"
+                GridPane.rowIndex="1">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+        </Button>
+        <Button fx:id="btnUniversityStudent2" alignment="CENTER" prefHeight="60.0" prefWidth="130.0"
+                styleClass="universitario" stylesheets="@../cssFile/mainStyle.css" visible="false" wrapText="true"
+                GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+        </Button>
+        <Button fx:id="btnUniversityStudent3" alignment="CENTER" prefHeight="60.0" prefWidth="130.0"
+                styleClass="universitario" stylesheets="@../cssFile/mainStyle.css" visible="false" wrapText="true"
+                GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+        </Button>
+        <Label fx:id="lblUniversityStudent1" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0"
+               prefWidth="130.0" stylesheets="@../cssFile/mainStyle.css" text="Universitário 1" textFill="WHITE"
+               visible="false">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+        </Label>
+        <Label fx:id="lblUniversityStudent2" alignment="CENTER" contentDisplay="CENTER" prefWidth="130.0"
+               stylesheets="@../cssFile/mainStyle.css" text="Universitário 2" textFill="WHITE" visible="false"
+               GridPane.columnIndex="1">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+        </Label>
+        <Label fx:id="lblUniversityStudent3" alignment="CENTER" contentDisplay="CENTER" prefWidth="130.0"
+               stylesheets="@../cssFile/mainStyle.css" text="Universitário 3" textFill="WHITE" visible="false"
+               GridPane.columnIndex="2">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+        </Label>
+        <VBox prefHeight="268.0" prefWidth="407.0" spacing="9.0" GridPane.columnSpan="3" GridPane.rowIndex="2">
+
+            <Button fx:id="btnAlternative1" alignment="TOP_LEFT" prefHeight="57.0" prefWidth="410.0"
+                    styleClass="defaultButton" stylesheets="@../cssFile/mainStyle.css" textAlignment="JUSTIFY"
+                    wrapText="true">
+                <graphic>
+                    <Label prefHeight="30.0" prefWidth="23.0" text="1. " textFill="WHITE">
+                        <font>
+                            <Font name="System Bold" size="20.0"/>
+                        </font>
+                    </Label>
+                </graphic>
+            </Button>
+            <Button fx:id="btnAlternative2" alignment="TOP_LEFT" prefHeight="57.0" prefWidth="410.0"
+                    styleClass="defaultButton" stylesheets="@../cssFile/mainStyle.css" textAlignment="JUSTIFY"
+                    wrapText="true">
+                <graphic>
+                    <Label alignment="TOP_LEFT" prefHeight="30.0" prefWidth="23.0" text="2. " textFill="WHITE">
+                        <font>
+                            <Font name="System Bold" size="20.0"/>
+                        </font>
+                    </Label>
+                </graphic>
+            </Button>
+            <Button fx:id="btnAlternative3" alignment="TOP_LEFT" prefHeight="57.0" prefWidth="410.0"
+                    styleClass="defaultButton" stylesheets="@../cssFile/mainStyle.css" textAlignment="JUSTIFY"
+                    wrapText="true">
+                <graphic>
+                    <Label prefHeight="30.0" prefWidth="23.0" text="3. " textFill="WHITE">
+                        <font>
+                            <Font name="System Bold" size="20.0"/>
+                        </font>
+                    </Label>
+                </graphic>
+            </Button>
+            <Button fx:id="btnAlternative4" alignment="TOP_LEFT" prefHeight="57.0" prefWidth="407.0"
+                    styleClass="defaultButton" stylesheets="@../cssFile/mainStyle.css" textAlignment="JUSTIFY"
+                    wrapText="true">
+                <graphic>
+                    <Label prefHeight="30.0" prefWidth="23.0" text="4. " textFill="WHITE">
+                        <font>
+                            <Font name="System Bold" size="20.0"/>
+                        </font>
+                    </Label>
+                </graphic>
+            </Button>
+            <padding>
+                <Insets top="5.0"/>
+            </padding>
+        </VBox>
+    </GridPane>
+    <Pane id="help" layoutX="430.0" layoutY="374.0" prefHeight="210.0" prefWidth="357.0"
+          stylesheets="@../cssFile/mainStyle.css">
+        <GridPane hgap="20.0" layoutY="14.0" prefHeight="125.0" prefWidth="344.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="25.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="70.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            </rowConstraints>
+
+            <Label fx:id="lblDescriptionLetters" alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="74.0"
+                   text="Cartas" textAlignment="CENTER" textFill="WHITE" GridPane.rowIndex="2">
+                <font>
+                    <Font name="System Bold" size="12.0"/>
+                </font>
+            </Label>
+            <Label fx:id="lblDescriptionJump" alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="65.0" text="Pulo"
+                   textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                <font>
+                    <Font name="System Bold" size="12.0"/>
+                </font>
+            </Label>
+            <Label fx:id="lblDescriptionUniversityStudent" alignment="CENTER" prefHeight="17.0" prefWidth="105.0"
+                   text="Universitários" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="2"
+                   GridPane.rowIndex="2">
+                <font>
+                    <Font name="System Bold" size="12.0"/>
+                </font>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="15.0" GridPane.columnIndex="1">
+
+                <Label text="Pulos:" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="14.0"/>
+                    </font>
+                </Label>
+                <Label fx:id="lblQuantityOfJumps" text="3" textFill="#f5f5f5">
+                    <font>
+                        <Font name="System Bold" size="14.0"/>
+                    </font>
+                </Label>
+            </HBox>
+            <JFXButton fx:id="btnMainLetters" buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" onAction="#onLetters"
+                       GridPane.rowIndex="1">
+                <graphic>
+                    <ImageView fitHeight="87.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+
+                        <Image url="@../image/cartas.png"/>
+
+                    </ImageView>
+                </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btnJump" buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" onAction="#onJump"
+                       GridPane.columnIndex="1" GridPane.rowIndex="1">
+                <graphic>
+                    <ImageView fitHeight="72.0" fitWidth="69.0" pickOnBounds="true" preserveRatio="true"
+                               translateY="10.0">
+
+                        <Image url="@../image/pulo.png"/>
+
+                    </ImageView>
+                </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btnMainUniversityStudent" alignment="CENTER" buttonType="RAISED"
+                       contentDisplay="GRAPHIC_ONLY" nodeOrientation="LEFT_TO_RIGHT" onAction="#onUniversityStudent"
+                       prefHeight="65.0" prefWidth="53.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                <graphic>
+                    <ImageView fitHeight="54.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true"
+                               translateX="13.0" translateY="5.0">
+
+                        <Image url="@../image/universitario.png"/>
+
+                    </ImageView>
+                </graphic>
+            </JFXButton>
+
+        </GridPane>
+        <JFXButton accessibleRole="IMAGE_VIEW" alignment="CENTER_RIGHT" layoutX="137.0" layoutY="157.0"
+                   onAction="#onStop" prefHeight="36.0" prefWidth="74.0" styleClass="stopButton"
+                   stylesheets="@../cssFile/buttonStyle.css" text="PARAR" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="14.0"/>
+            </font>
+        </JFXButton>
+
+    </Pane>
+    <GridPane hgap="10.0" layoutX="464.0" layoutY="110.0" prefHeight="125.0" prefWidth="320.0" vgap="1.0">
+
+        <Label prefHeight="25.0" prefWidth="100.0" stylesheets="@../cssFile/mainStyle.css" text="JOGADOR :"
+               textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Label prefHeight="20.0" prefWidth="100.0" stylesheets="@../cssFile/mainStyle.css" text="Rodada :"
+               textFill="WHITE" GridPane.rowIndex="1">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Label prefHeight="20.0" prefWidth="100.0" stylesheets="@../cssFile/mainStyle.css" text="Pergunta :"
+               textFill="WHITE" GridPane.rowIndex="2">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Label prefHeight="20.0" prefWidth="100.0" stylesheets="@../cssFile/mainStyle.css" text="Nível :"
+               textFill="WHITE" GridPane.rowIndex="3">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Label fx:id="lblPlayerName" alignment="CENTER_RIGHT" prefHeight="25.0" prefWidth="230.0"
+               stylesheets="@../cssFile/mainStyle.css" textFill="WHITE" GridPane.columnIndex="1">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Label fx:id="lblRoundNumber" alignment="CENTER_RIGHT" prefHeight="25.0" prefWidth="230.0"
+               stylesheets="@../cssFile/mainStyle.css" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Label fx:id="lblQuestionNumber" alignment="CENTER_RIGHT" prefHeight="25.0" prefWidth="230.0"
+               stylesheets="@../cssFile/mainStyle.css" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Label fx:id="lblLevel" alignment="CENTER_RIGHT" prefHeight="25.0" prefWidth="230.0"
+               stylesheets="@../cssFile/mainStyle.css" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+    </GridPane>
+    <HBox layoutX="514.0" layoutY="224.0" prefHeight="79.0" prefWidth="277.0" spacing="5.0">
+
+        <JFXButton fx:id="btnLetters1" contentDisplay="GRAPHIC_ONLY" prefHeight="71.0" prefWidth="69.0" visible="false">
+            <graphic>
+                <ImageView fitHeight="70.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+
+                    <Image url="@../image/carta.png"/>
+
+                </ImageView>
+            </graphic>
+        </JFXButton>
+        <JFXButton fx:id="btnLetters2" contentDisplay="GRAPHIC_ONLY" prefHeight="71.0" prefWidth="69.0" visible="false">
+            <graphic>
+                <ImageView fitHeight="70.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+
+                    <Image url="@../image/carta.png"/>
+
+                </ImageView>
+            </graphic>
+        </JFXButton>
+        <JFXButton fx:id="btnLetters3" contentDisplay="GRAPHIC_ONLY" prefHeight="71.0" prefWidth="69.0" visible="false">
+            <graphic>
+                <ImageView fitHeight="70.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+
+                    <Image url="@../image/carta.png"/>
+
+                </ImageView>
+            </graphic>
+        </JFXButton>
+        <JFXButton fx:id="btnLetters4" contentDisplay="GRAPHIC_ONLY" prefHeight="71.0" prefWidth="69.0" visible="false">
+            <graphic>
+                <ImageView fitHeight="70.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+
+                    <Image url="@../image/carta.png"/>
+
+                </ImageView>
+            </graphic>
+        </JFXButton>
+    </HBox>
+    <GridPane hgap="15.0" layoutX="437.0" layoutY="305.0" prefHeight="65.0" prefWidth="344.0" vgap="1.0">
+
+        <Label prefHeight="21.0" prefWidth="95.0" stylesheets="@../cssFile/mainStyle.css" text="Acertar :"
+               textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Label prefWidth="95.0" stylesheets="@../cssFile/mainStyle.css" text="Errar :" textFill="WHITE"
+               GridPane.rowIndex="1">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Label prefWidth="95.0" stylesheets="@../cssFile/mainStyle.css" text="Parar :" textFill="WHITE"
+               GridPane.rowIndex="2">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Label fx:id="lblHitScore" alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="260.0"
+               stylesheets="@../cssFile/mainStyle.css" textFill="WHITE" GridPane.columnIndex="1">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Label fx:id="lblErrorScore" alignment="CENTER_RIGHT" prefWidth="260.0" stylesheets="@../cssFile/mainStyle.css"
+               textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+        <Label fx:id="lblStopScore" alignment="CENTER_RIGHT" prefWidth="260.0" stylesheets="@../cssFile/mainStyle.css"
+               textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <font>
+                <Font name="System Bold" size="15.0"/>
+            </font>
+        </Label>
+    </GridPane>
+
+    <JFXButton id="closeButton" layoutX="736.0" layoutY="9.0" onAction="#close" stylesheets="@../cssFile/mainStyle.css"
+               text="X" textFill="#fffefe">
+        <font>
+            <Font name="System Bold" size="28.0"/>
+        </font>
+    </JFXButton>
+
+</AnchorPane>
