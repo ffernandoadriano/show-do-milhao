@@ -10,6 +10,16 @@
 <img src="https://github.com/ffernandoadriano/show-do-milhao/assets/96425026/70b35d7c-5259-43af-bba0-0917998338ae"/>
 </p>
 
+- ### Tela de ranking ###
+<p align="center">
+<img src="https://github.com/ffernandoadriano/show-do-milhao/assets/96425026/bc28897f-2984-4d5d-9781-4e1770bb44ee"/>
+</p>
+
+- ### Tela de perguntas ###
+<p align="center">
+<img src="https://github.com/ffernandoadriano/show-do-milhao/assets/96425026/dcb39168-88b0-4025-832f-c69002b6afe9"/>
+</p>
+
 ## 📚 Conhecimentos aplicados
 ### - **Tópicos POO:**
 - Encapsulamento
