@@ -10,6 +10,11 @@
 <img src="https://github.com/ffernandoadriano/show-do-milhao/assets/96425026/7dd9ea45-6308-4ef3-8387-d8421e3b6317"/>
 </p>
 
+- ### Tela principal ###
+<p align="center">
+<img src="https://github.com/ffernandoadriano/show-do-milhao/assets/96425026/6b5d1d29-8dca-42d2-9727-03b7696cb813"/>
+</p>
+
 - ### Tela de regras ###
 <p align="center">
 <img src="https://github.com/ffernandoadriano/show-do-milhao/assets/96425026/70b35d7c-5259-43af-bba0-0917998338ae"/>
