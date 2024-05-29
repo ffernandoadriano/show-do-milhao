@@ -5,6 +5,11 @@
    <img src="https://github.com/ffernandoadriano/show-do-milhao/assets/96425026/94ed2273-0034-4ceb-bb72-6d9cf0537d0d"/>
 </p>
 
+- ### Tela jogar ###
+<p align="center">
+<img src="https://github.com/ffernandoadriano/show-do-milhao/assets/96425026/7dd9ea45-6308-4ef3-8387-d8421e3b6317"/>
+</p>
+
 - ### Tela de regras ###
 <p align="center">
 <img src="https://github.com/ffernandoadriano/show-do-milhao/assets/96425026/70b35d7c-5259-43af-bba0-0917998338ae"/>
