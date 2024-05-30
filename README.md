@@ -118,3 +118,4 @@
         </dependency>
 </dependencies>
 ```
+### - **🔗 Executável para Windows:**
