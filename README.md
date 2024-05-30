@@ -1,34 +1,10 @@
 # 🎮 Jogo Show do Milhão com CRUD de Perguntas
 ## Projeto com JavaFX
-- ### Tela inicial ###
+
 <p align="center">
-   <img src="https://github.com/ffernandoadriano/show-do-milhao/assets/96425026/94ed2273-0034-4ceb-bb72-6d9cf0537d0d"/>
+   <img src="https://github.com/ffernandoadriano/show-do-milhao/assets/96425026/75c3d93f-05ce-46d0-a307-189a3d1f80ab"/>
 </p>
 
-- ### Tela jogar ###
-<p align="center">
-<img src="https://github.com/ffernandoadriano/show-do-milhao/assets/96425026/7dd9ea45-6308-4ef3-8387-d8421e3b6317"/>
-</p>
-
-- ### Tela principal ###
-<p align="center">
-<img src="https://github.com/ffernandoadriano/show-do-milhao/assets/96425026/6b5d1d29-8dca-42d2-9727-03b7696cb813"/>
-</p>
-
-- ### Tela de regras ###
-<p align="center">
-<img src="https://github.com/ffernandoadriano/show-do-milhao/assets/96425026/70b35d7c-5259-43af-bba0-0917998338ae"/>
-</p>
-
-- ### Tela de ranking ###
-<p align="center">
-<img src="https://github.com/ffernandoadriano/show-do-milhao/assets/96425026/bc28897f-2984-4d5d-9781-4e1770bb44ee"/>
-</p>
-
-- ### Tela de perguntas ###
-<p align="center">
-<img src="https://github.com/ffernandoadriano/show-do-milhao/assets/96425026/dcb39168-88b0-4025-832f-c69002b6afe9"/>
-</p>
 
 ## 📚 Conhecimentos aplicados
 ### - **Tópicos POO:**
