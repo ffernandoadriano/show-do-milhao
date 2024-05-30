@@ -119,3 +119,4 @@
 </dependencies>
 ```
 ### - **🔗 Executável para Windows:**
+<a href="https://github.com/ffernandoadriano/show-do-milhao/raw/main/ShowdoMilh%C3%A3oSetup.exe">Baixar Show do Milhão</a>
